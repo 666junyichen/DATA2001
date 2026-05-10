@@ -1,0 +1,25 @@
+# Credentials and local configuration
+Credentials.json
+credentials.json
+.env
+.env.*
+
+# Local/private source data
+data/
+raw_data/
+*.csv
+*.txt
+*.json
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# Draft artifacts that may contain private or context-specific labels
+*Report.docx
+REPORT.pdf
+
+# Local notebook/runtime noise
+.ipynb_checkpoints/
+__pycache__/
